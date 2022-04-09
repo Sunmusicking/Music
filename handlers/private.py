@@ -10,25 +10,25 @@ from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 @Client.on_message(command("start") & filters.private & ~filters.edited)
 async def start_(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/c247284e8ddc50f01a314.png",
-        caption=f"""**𝐓𝐡𝐢𝐬 𝐈𝐬 𝐀𝐝𝐯𝐚𝐧𝐜𝐞 🥀𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦 𝐌𝐮𝐬𝐢𝐜 𝐁𝐨𝐭 𝐑𝐮𝐧 𝐎𝐧 𝐏𝐫𝐢𝐯𝐚𝐭𝐞 🥀 𝐕𝐩𝐬 💫𝐒𝐞𝐫𝐯𝐞𝐫 🌎 𝐅𝐞𝐞𝐥 ❤️ 𝐇𝐢𝐠𝐡 𝐐𝐮𝐚𝐥𝐢𝐭𝐲 𝐌𝐮𝐬𝐢𝐜 🎧 𝐈𝐧 𝐕𝐜**""",
+        photo=f"https://telegra.ph/file/067c81b8a975f5b57f865.jpg",
+        caption=f"""**𝗛𝗘𝗟𝗟𝗢 𝗕𝗜𝗥𝗢𝗢✨🥰𝗶𝗠 𝗞𝗜𝗡𝗚 𝗠𝗨𝗦𝗜𝗖 𝗣𝗟𝗔𝗬𝗘𝗥 🎧 𝗔𝗗𝗗 𝗣𝗔𝗡𝗜𝗞𝗢 🥂 𝗦𝗢𝗡𝗚𝗦 𝗞𝗘𝗧𝗨𝗞𝗢 💫 𝗔𝗡𝗬 𝗤𝗨𝗦 𝗼𝗿 𝗜𝗦𝗦𝗨𝗘𝗦 𝗣𝗠 𝗩𝗔 𝗠𝗔𝗖𝗛𝗜 𝗣𝗔𝗧𝗛𝗨 𝗣𝗔𝗡𝗜𝗞𝗔𝗟𝗔𝗠 @iMzaynKING ✨✌️**""",
     reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "♥️ Creator ♥️", url=f"https://t.me/Murat_30_God")
+                        "❰⚡️𝐎ᴡɴᴇʀ⚡️❱", url=f"https://t.me/Imzaynking")
                ],
                 [
                     InlineKeyboardButton(
-                        "Repo ✨", url=f"https://github.com/kaal0408/Music")
+                        "❰💙𝐂ʜᴀɴɴᴇʟ❤️❱", url=f"https://t.me/KING_BIOz")
                ], 
                 [
                     InlineKeyboardButton(
-                        "👨‍💻 YouTube", url=f"https://youtube.com/channel/UCpZBwvZJdRsInUBgAWfpVMA")
+                        "❰⭕️𝐒ᴜᴘᴘᴏʀᴛ⭕️❱", url=f"https://t.me/TAMIL_CHATBOX")
                ],
                 [
                     InlineKeyboardButton(
-                        "💝 Commands 💝", url=f"https://telegra.ph/Music-04-06-2")
+                        "❰📚𝐂ᴏᴍᴍᴀɴᴅs 𝐇ᴇʟᴘ📚❱", url=f"https://telegra.ph/-04-09-1257")
                 ]
                 
            ]
@@ -38,13 +38,13 @@ async def start_(client: Client, message: Message):
 @Client.on_message(command(["repo"]) & filters.group & ~filters.edited)
 async def help(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/c247284e8ddc50f01a314.png",
+        photo=f"https://telegra.ph/file/7262b66b1b936e3bd826e.jpg",
         caption=f"""""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "💥 Repo 💞", url=f"https://github.com/kaal0408/Music")
+                        "❰💫𝐒ᴏᴜʀᴄᴇ💕❱", url=f"https://t.me/iMzaynKING")
                 ]
             ]
         ),
