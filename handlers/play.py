@@ -102,7 +102,7 @@ async def play(_, message: Message):
     global que
     global useer
 
-    lel = await message.reply("🔎 **𝐅𝐢𝐧𝐝𝐢𝐧𝐠 💫 𝐓𝐡𝐞 𝐒𝐨𝐧𝐠 ❤️ ❰ Lovely 🚬 ❱...**")
+    lel = await message.reply("🔎 **𝐅𝐢𝐧𝐝𝐢𝐧𝐠 💫 𝐓𝐡𝐞 𝐒𝐨𝐧𝐠 ❤️ ❰ 𝐊𝐈𝐍𝐆 𝐌𝐔𝐒𝐈𝐂✨🥂 ❱...**")
 
     administrators = await get_administrators(message.chat)
     chid = message.chat.id
@@ -128,18 +128,18 @@ async def play(_, message: Message):
                 try:
                     await USER.join_chat(invitelink)
                     await USER.send_message(
-                        message.chat.id, "** 𝐌𝐮𝐬𝐢𝐜 🎶 𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭 𝐉𝐨𝐢𝐧𝐞𝐝 😎 🤟 𝐓𝐡𝐢𝐬 𝐆𝐫𝐨𝐮𝐩  𝐅𝐨𝐫 𝐏𝐥𝐚𝐲 ▶ 𝐌𝐮𝐬𝐢𝐜 🎸**")
+                        message.chat.id, "**𝐊𝐈𝐍𝐆 𝐌𝐮𝐬𝐢𝐜 🎶 𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭 𝐉𝐨𝐢𝐧𝐞𝐝 😎 🤟 𝐓𝐡𝐢𝐬 𝐆𝐫𝐨𝐮𝐩  𝐅𝐨𝐫 𝐏𝐥𝐚𝐲 ▶ 𝐌𝐮𝐬𝐢𝐜 🎸**")
 
                 except UserAlreadyParticipant:
                     pass
                 except Exception:
                     await lel.edit(
-                        f"<b>❰𝐅𝐥𝐨𝐨𝐝 😒 𝐖𝐚𝐢𝐭 𝐄𝐫𝐫𝐨𝐫  😔❱</b>\n𝐇𝐞𝐲 𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭 🎸 𝐔𝐬𝐞𝐫𝐁𝐨𝐭 ❤️ 𝐂𝐨𝐮𝐥𝐝𝐧'𝐭 𝐉𝐨𝐢𝐧 𝐘𝐨𝐮𝐫 💫 𝐆𝐫𝐨𝐮𝐩  𝐃𝐮𝐞 𝐓𝐨 𝐇𝐞𝐚𝐯𝐲 𝐉𝐨𝐢𝐧 𝐑𝐞𝐐𝐮𝐞𝐬𝐭 🥀 . 𝐌𝐚𝐤𝐞 𝐒𝐮𝐫𝐞 𝐁𝐨𝐭 💫 𝐈𝐬 𝐍𝐨𝐭 𝐁𝐚𝐧𝐧𝐞𝐝 😔 𝐈𝐧 𝐆𝐫𝐨𝐮𝐩 🎸  𝐀𝐧𝐝 𝐓𝐫𝐲 𝐀𝐠𝐚𝐢𝐧 𝐋𝐚𝐭𝐞𝐫 𝐀𝐧𝐲 𝐇𝐞𝐥𝐩 𝐃𝐦 :- ✨ [❛-𝐌𝐫'Manjeet 🚬](https://t.me/Murat_30_God) ❤️🥀 :) ")
+                        f"<b>❰𝐅𝐥𝐨𝐨𝐝 😒 𝐖𝐚𝐢𝐭 𝐄𝐫𝐫𝐨𝐫  😔❱</b>\n𝐇𝐞𝐲 𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭 🎸 𝐔𝐬𝐞𝐫𝐁𝐨𝐭 ❤️ 𝐂𝐨𝐮𝐥𝐝𝐧'𝐭 𝐉𝐨𝐢𝐧 𝐘𝐨𝐮𝐫 💫 𝐆𝐫𝐨𝐮𝐩  𝐃𝐮𝐞 𝐓𝐨 𝐇𝐞𝐚𝐯𝐲 𝐉𝐨𝐢𝐧 𝐑𝐞𝐐𝐮𝐞𝐬𝐭 🥀 . 𝐌𝐚𝐤𝐞 𝐒𝐮𝐫𝐞 𝐁𝐨𝐭 💫 𝐈𝐬 𝐍𝐨𝐭 𝐁𝐚𝐧𝐧𝐞𝐝 😔 𝐈𝐧 𝐆𝐫𝐨𝐮𝐩 🎸  𝐀𝐧𝐝 𝐓𝐫𝐲 𝐀𝐠𝐚𝐢𝐧 𝐋𝐚𝐭𝐞𝐫 𝐀𝐧𝐲 𝐇𝐞𝐥𝐩 𝐃𝐦 :- ✨ [❛-𝐌𝐫'K I N G](https://t.me/iMzaynKING) 💙⭐ :) ")
     try:
         await USER.get_chat(chid)
     except:
         await lel.edit(
-            f"<i>Hey {user.first_name}, 𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭 🎸 𝐔𝐬𝐞𝐫𝐁𝐨𝐭 𝐈𝐬 𝐍𝐨𝐭 𝐈𝐧 𝐓𝐡𝐢𝐬 𝐂𝐡𝐚𝐭' 𝐀𝐬𝐤 𝐀𝐝𝐦𝐢𝐧 😎 𝐓𝐨 𝐒𝐞𝐧𝐝 /𝐏𝐥𝐚𝐲 𝐂𝐨𝐦𝐦𝐚𝐧𝐝 😎 𝐅𝐨𝐫 𝐅𝐢𝐫𝐬𝐭 𝐓𝐢𝐦𝐞 𝐓𝐨 𝐀𝐝𝐝 𝐈𝐭 𝐀𝐧𝐲 𝐇𝐞𝐥𝐩 𝐃𝐦 :- ✨ [❛-𝐌𝐫'Manjeet 🚬](https://t.me/Murat_30_God) ❤️🥀 </i>")
+            f"<i>Hey {user.first_name}, 𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭 🎸 𝐔𝐬𝐞𝐫𝐁𝐨𝐭 𝐈𝐬 𝐍𝐨𝐭 𝐈𝐧 𝐓𝐡𝐢𝐬 𝐂𝐡𝐚𝐭' 𝐀𝐬𝐤 𝐀𝐝𝐦𝐢𝐧 😎 𝐓𝐨 𝐒𝐞𝐧𝐝 /𝐏𝐥𝐚𝐲 𝐂𝐨𝐦𝐦𝐚𝐧𝐝 😎 𝐅𝐨𝐫 𝐅𝐢𝐫𝐬𝐭 𝐓𝐢𝐦𝐞 𝐓𝐨 𝐀𝐝𝐝 𝐈𝐭 𝐀𝐧𝐲 𝐇𝐞𝐥𝐩 𝐃𝐦 :- ✨ [❛-𝐌𝐫'K I N G](https://t.me/iMzaynKING) 💙🥀 </i>")
         return
     
     audio = (
@@ -157,7 +157,7 @@ async def play(_, message: Message):
 
         file_name = get_file_name(audio)
         title = file_name
-        thumb_name = "https://telegra.ph/file/c247284e8ddc50f01a314.png"
+        thumb_name = "https://telegra.ph/file/d69393f017618dc6818c9.jpg"
         thumbnail = thumb_name
         duration = round(audio.duration / 60)
         views = "Locally added"
@@ -166,24 +166,14 @@ async def play(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                            text="💝 Owner 💝",
-                            url=f"https://t.me/Murat_30_God"),
+                            text="❰⚡️𝐎ᴡɴᴇʀ⚡️❱",
+                            url=f"https://t.me/iMzaynKING"),
                             
                     InlineKeyboardButton(
-                            text="👨‍💻 Assistant",
-                            url=f"https://t.me/{bot_username}")
+                            text="❰💙𝐂ʜᴀɴɴᴇʟ❤️❱",
+                            url=f"https://t.me/KING_BIOz")
                ],
-                [
-                    InlineKeyboardButton(
-                            text="YouTube",
-                            url=f"https://youtube.com/channel/UCpZBwvZJdRsInUBgAWfpVMA")
-               ],
-               [
-                        InlineKeyboardButton(
-                            text="🔰 Commands 🔰",
-                            url=f"https://telegra.ph/Music-04-06-2")
-                   
-                ]
+             
             ]
         )
 
@@ -219,54 +209,34 @@ async def play(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                            text="💝 Owner 💝",
-                            url=f"https://t.me/Murat_30_God"),
+                            text="❰⚡️𝐎ᴡɴᴇʀ⚡️❱",
+                            url=f"https://t.me/imzaynking"),
                             
                     InlineKeyboardButton(
-                            text="👨‍💻 Assistant",
-                            url=f"https://t.me/{bot_username}")
+                            text="❰💙𝐂ʜᴀɴɴᴇʟ❤️❱",
+                            url=f"https://t.me/KING_BIOz")
                ],
-                [
-                    InlineKeyboardButton(
-                            text="YouTube",
-                            url=f"https://youtube.com/channel/UCpZBwvZJdRsInUBgAWfpVMA")
-               ],
-               [
-                        InlineKeyboardButton(
-                            text="🔰 Commands 🔰",
-                            url=f"https://telegra.ph/Music-04-06-2")
-                   
-                ]
+                
             ]
         )
 
         except Exception as e:
             title = "NaN"
-            thumb_name = "https://telegra.ph/file/c247284e8ddc50f01a314.png"
+            thumb_name = "https://telegra.ph/file/d69393f017618dc6818c9.jpg"
             duration = "NaN"
             views = "NaN"
             keyboard = InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                            text="💝 Owner 💝",
-                            url=f"https://t.me/DhrubaXD"),
+                            text="❰⚡️𝐎ᴡɴᴇʀ⚡️❱",
+                            url=f"https://t.me/imzaynking"),
                             
                     InlineKeyboardButton(
-                            text="👨‍💻 Assistant",
-                            url=f"https://t.me/{bot_username}")
+                            text="❰💙𝐂ʜᴀɴɴᴇʟ❤️❱",
+                            url=f"https://t.me/king_bioz")
                ],
-                [
-                    InlineKeyboardButton(
-                            text="YouTube",
-                            url=f"https://youtube.com/channel/UCpZBwvZJdRsInUBgAWfpVMA")
-               ],
-               [
-                        InlineKeyboardButton(
-                            text="🔰 Commands 🔰",
-                            url=f"https://telegra.ph/Music-04-06-2")
-                   
-                ]
+                
             ]
         )
 
@@ -317,24 +287,14 @@ async def play(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                            text="💝 Owner 💝",
-                            url=f"https://t.me/Murat_30_God"),
+                            text="❰⚡️𝐎ᴡɴᴇʀ⚡️❱",
+                            url=f"https://t.me/imzaynking"),
                             
                     InlineKeyboardButton(
-                            text="👨‍💻 Assistant",
-                            url=f"https://t.me/{bot_username}")
+                            text="❰💙𝐂ʜᴀɴɴᴇʟ❤️❱",
+                            url=f"https://t.me/king_bioz")
                ],
-                [
-                    InlineKeyboardButton(
-                            text="Youtube",
-                            url=f"https://youtube.com/channel/UCpZBwvZJdRsInUBgAWfpVMA")
-               ],
-               [
-                        InlineKeyboardButton(
-                            text="🔰 Commands 🔰",
-                            url=f"https://telegra.ph/Music-04-06-2")
-                   
-                ]
+                
             ]
         )
 
@@ -354,7 +314,7 @@ async def play(_, message: Message):
         position = await queues.put(chat_id, file=file_path)
         await message.reply_photo(
             photo="final.png",
-            caption="****❰ 𝐌𝐮𝐬𝐢𝐜'𝐗 ❘ 😈 ❱ 𝐒𝐨𝐧𝐠 ❤️ 𝐏𝐨𝐬𝐢𝐭𝐢𝐨𝐧 💫🤟** {}**".format(position),
+            caption="****❰ 𝐊𝐈𝐍𝐆 𝐌𝐔𝐒𝐈𝐂 𝐧𝐞𝐱𝐭  ❘ 😈 ❱ 𝐒𝐨𝐧𝐠 💙❤️ 𝐏𝐨𝐬𝐢𝐭𝐢𝐨𝐧 💫🤟** {}**".format(position),
             reply_markup=keyboard,
         )
     else:
@@ -369,9 +329,9 @@ async def play(_, message: Message):
             )
 
         await message.reply_photo(
-            photo="https://telegra.ph/file/c247284e8ddc50f01a314.png",
+            photo="https://telegra.ph/file/8f3bc340c4dd2c93f7693.jpg",
             reply_markup=keyboard,
-            caption="**▶️ Legendary Music Bot Is Playin Now In** ➡️ `{}`\n**Title:** {}\n**Duration:** {}\nViews: {}".format(
+            caption="**▶️ 𝐊𝐈𝐍𝐆 𝐌𝐔𝐒𝐈𝐂 𝒃𝒐𝒕 𝒊𝒔 𝒑𝒍𝒂𝒚𝒊𝒏𝒈 𝒏𝒐𝒘 𝒊𝒏** ➡️ `{}`\n**Title:** {}\n**Duration:** {}\nViews: {}".format(
         message.chat.title, results[i]['title'], results[i]['duration'], results[i]['views']
         ), )
 
